@@ -119,6 +119,7 @@ const Index = () => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            placeholder='username'
           />
         </div>
         <button type="submit">add </button>
